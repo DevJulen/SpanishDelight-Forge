@@ -7,10 +7,10 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "spanishdelight:sliced_potato"
+      "tag": "spanishdelight:sliced_potato_ingredient"
     },
     {
-      "item": "spanishdelight:sliced_potato"
+      "tag": "spanishdelight:sliced_potato_ingredient"
     },
     {
       "item": "spanishdelight:paprika"

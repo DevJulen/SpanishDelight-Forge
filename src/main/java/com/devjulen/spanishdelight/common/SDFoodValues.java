@@ -37,6 +37,24 @@ public class SDFoodValues {
     public static final FoodProperties SQUID_RING = new FoodProperties.Builder()
             .nutrition(1).saturationMod(0.1f).fast().build();
 
+    public static final FoodProperties SOBRASADA = new FoodProperties.Builder()
+            .nutrition(1).saturationMod(0.1f).fast().build();
+
+    public static final FoodProperties OCTOPUS_LEG = new FoodProperties.Builder()
+            .nutrition(1).saturationMod(0.1f).fast().build();
+
+    public static final FoodProperties SLICED_OCTOPUS_LEG = new FoodProperties.Builder()
+            .nutrition(1).saturationMod(0.1f).fast().build();
+
+    public static final FoodProperties SLICED_GARLIC = new FoodProperties.Builder()
+            .nutrition(1).saturationMod(0.1f).fast().build();
+
+    public static final FoodProperties OXTAIL = new FoodProperties.Builder()
+            .nutrition(1).saturationMod(0.1f).fast().build();
+
+    public static final FoodProperties BREAD_SLICE = new FoodProperties.Builder()
+            .nutrition(1).saturationMod(0.1f).fast().build();
+
     // New recipes
     public static final FoodProperties SPANISH_TORTILLA = new FoodProperties.Builder()
             .nutrition(7).saturationMod(0.8f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();

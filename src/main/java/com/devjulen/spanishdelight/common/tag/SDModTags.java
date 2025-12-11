@@ -13,6 +13,8 @@ public class SDModTags {
     public static final TagKey<Item> WATER_INGREDIENT = modItemTag("water_ingredient");
     public static final TagKey<Item> MILK_INGREDIENT = modItemTag("water_ingredient");
 
+    public static final TagKey<Item> SLICED_POTATO_INGREDIENT = modItemTag("sliced_potato_ingredient");
+
     private static TagKey<Item> modItemTag(String path) {
         return ItemTags.create(new ResourceLocation(SpanishDelight.MOD_ID, path));
     }

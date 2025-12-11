@@ -1,12 +1,14 @@
 package com.devjulen.spanishdelight.data;
 
 import com.devjulen.spanishdelight.SpanishDelight;
+import com.devjulen.spanishdelight.common.registry.ModItemsRegistry;
 import com.devjulen.spanishdelight.common.tag.ForgeTags;
 import com.devjulen.spanishdelight.common.tag.SDModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.data.tags.TagsProvider;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
@@ -32,6 +34,7 @@ public class ItemTags extends ItemTagsProvider {
     private void registerModTags() {
         tag(SDModTags.WATER_INGREDIENT).add(Items.WATER_BUCKET);
         tag(SDModTags.MILK_INGREDIENT).add(Items.MILK_BUCKET, vectorwing.farmersdelight.common.registry.ModItems.MILK_BOTTLE.get());
+        tag(SDModTags.SLICED_POTATO_INGREDIENT).add(ModItemsRegistry.SLICED_POTATO.get()).addOptional(new ResourceLocation("moredelight", "diced_potatoes"));
     }
 
     public void registerCompatibilityTags() {

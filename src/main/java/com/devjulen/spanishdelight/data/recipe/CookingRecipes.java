@@ -26,7 +26,7 @@ public class CookingRecipes {
     private static void cookMeals(Consumer<FinishedRecipe> consumer) {
         // TORTILLA
         CookingPotRecipeBuilder.cookingPotRecipe(ModItemsRegistry.SPANISH_TORTILLA.get(), 1, FAST_COOKING, LARGE_EXP)
-                .addIngredient(ModItemsRegistry.SLICED_POTATO.get())
+                .addIngredient(SDModTags.SLICED_POTATO_INGREDIENT)
                 .addIngredient(ModItemsRegistry.SLICED_ONION.get())
                 .addIngredient(Items.EGG)
                 .addIngredient(Items.EGG)
@@ -52,7 +52,7 @@ public class CookingRecipes {
         CookingPotRecipeBuilder.cookingPotRecipe(ModItemsRegistry.PIL_PIL_COD.get(), 1, SLOW_COOKING, LARGE_EXP, Items.BOWL)
                 .addIngredient(ModItemsRegistry.GREEN_PEPPER.get())
                 .addIngredient(Items.COD)
-                .addIngredient(ModItemsRegistry.SLICED_POTATO.get())
+                .addIngredient(SDModTags.SLICED_POTATO_INGREDIENT)
                 .addIngredient(ModItemsRegistry.GARLIC.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .unlockedByAnyIngredient(ModItemsRegistry.SLICED_POTATO.get(), ModItemsRegistry.GREEN_PEPPER.get(), ModItemsRegistry.GARLIC.get())
@@ -71,8 +71,8 @@ public class CookingRecipes {
 
         // BRAVAS
         CookingPotRecipeBuilder.cookingPotRecipe(ModItemsRegistry.BRAVA_POTATOES.get(), 1, NORMAL_COOKING, MEDIUM_EXP, Items.BOWL)
-                .addIngredient(ModItemsRegistry.SLICED_POTATO.get())
-                .addIngredient(ModItemsRegistry.SLICED_POTATO.get())
+                .addIngredient(SDModTags.SLICED_POTATO_INGREDIENT)
+                .addIngredient(SDModTags.SLICED_POTATO_INGREDIENT)
                 .addIngredient(ModItemsRegistry.PAPRIKA.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .unlockedByAnyIngredient(ModItemsRegistry.SLICED_POTATO.get(), ModItemsRegistry.PAPRIKA.get())

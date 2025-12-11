@@ -1,0 +1,9 @@
+{
+  "values": [
+    "spanishdelight:sliced_potato",
+    {
+      "id": "moredelight:diced_potatoes",
+      "required": false
+    }
+  ]
+}
